@@ -4,7 +4,7 @@ from pydub import AudioSegment
 # Variables
 inf = input("Input file >> ")
 otf = input("Output file >> ")
-bitrate = "8k"
+bitrate = "4k"
 framerate = 8000
 channels = 1
 
