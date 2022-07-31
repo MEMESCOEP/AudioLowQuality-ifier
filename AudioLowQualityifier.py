@@ -10,5 +10,6 @@ channels = 1
 
 # DO STUFF AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
 sound = AudioSegment.from_file(inf)
+sound = sound + 10
 new_sound = sound.set_frame_rate(framerate).set_channels(channels)
 new_sound.export(otf, format="mp3", bitrate=bitrate)
